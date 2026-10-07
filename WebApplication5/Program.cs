@@ -23,7 +23,7 @@ namespace MainDentalla
             builder.Services.AddDbContext<Appdbcontext>(options =>
             { options.UseSqlServer(builder.Configuration.GetConnectionString("connect")); }
            );
-            // builder.Services.AddAuthentication()
+            // builder.Services.AddAuthentication() 
             //.AddFacebook(options =>
             //{
             //    options.AppId = "353423947549108";
